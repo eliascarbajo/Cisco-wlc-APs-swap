@@ -14,7 +14,7 @@
          configure selected APs with WLC2 as primary and WLC1 as secondary, and opposite
          with option wlc2to1.
     -f : filter for AP selection. You can put the name of an AP, or a regex for selecting
-         multiple APs, or .*  for all APS.
+         multiple APs, or .*  for all APs.
 
     Example:
     python3 wlc-APs-swap.py -c wlc1to2 -u admin -f AProom1-003 
